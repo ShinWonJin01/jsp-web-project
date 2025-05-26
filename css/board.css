@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../images/home.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Malgun Gothic', Helvetica, sans-serif;
+  color: #333;
+}
+
+.form-container, .list-container {
+  max-width: 800px;
+  margin: 100px auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 15px;
+  table-layout: fixed;
+}
+
+.board-table colgroup col {
+  width: auto;
+}
+
+.board-table thead {
+  background-color: #f0f0f0;
+}
+
+.board-table th, .board-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  word-break: break-word;
+}
+
+.board-table a {
+  color: #333;
+  text-decoration: none;
+}
+
+.board-table a:hover {
+  text-decoration: underline;
+}
+
+.write-button-box {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.write-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.write-btn:hover {
+  background-color: #555;
+}
+
+.content-box {
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 6px;
+  min-height: 150px;
+  white-space: pre-wrap;
+}

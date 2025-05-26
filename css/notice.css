@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../images/home.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Malgun Gothic', '맑은 고딕', Helvetica, sans-serif;
+  color: white;
+}
+
+.notice-container {
+  max-width: 700px;
+  margin: 150px auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.notice-container h1 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.notice-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-top: 20px;
+}

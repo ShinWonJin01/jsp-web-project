@@ -1,0 +1,51 @@
+/* 헤더 공통 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Malgun Gothic', '맑은 고딕', Helvetica, sans-serif;
+}
+
+#topMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* 반투명 */
+    backdrop-filter: blur(6px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+#topMenu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+#topMenu ul li {
+    margin: 0 15px;
+}
+
+#topMenu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 6px;
+}
+
+#topMenu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffcdd2;
+}
+
+#topMenu .welcome {
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 14px;
+}

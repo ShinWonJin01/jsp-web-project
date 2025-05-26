@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Malgun Gothic', '맑은 고딕', Helvetica, sans-serif;
+  background: url("../images/home.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+.message-box-container {
+  max-width: 900px;
+  margin: 120px auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.message-box-container h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.message-links {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.message-links a {
+  margin: 0 12px;
+  font-weight: bold;
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.message-links a:hover {
+  text-decoration: underline;
+}
+
+.message-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.message-table th {
+  background-color: #f0f0f0;
+  padding: 12px;
+  border-bottom: 2px solid #ccc;
+}
+
+.message-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.message-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* 쪽지 제목 링크 텍스트 스타일 */
+.msg-link {
+  color: inherit;            /* 부모 색상 상속 (검정색 유지) */
+  text-decoration: none;     /* 밑줄 제거 */
+  font-weight: 500;
+}
+
+.msg-link:hover {
+  text-decoration: underline;  /* 마우스 올릴 땐 강조만 */
+  color: #333;
+}
